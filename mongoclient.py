@@ -32,7 +32,6 @@ def get_geojson(coords):
     cursor = db['countries'].find_one(query)
     pprint(json.dumps(cursor['location']))
 
-get_geojson([-99,29])
 
 #
 # ####FROM HERE DOWN IS UPLOADING
