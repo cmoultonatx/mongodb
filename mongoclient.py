@@ -3,7 +3,7 @@ from pprint import pprint
 import json
 from pymongo.errors import (PyMongoError, BulkWriteError)
 
-pw = "sumner67"
+pw = <YOUR PASSWORD>
 geojson_path = "static/countries.geojson"
 
 client = MongoClient("mongodb+srv://cmoulton:{0}@cmoultonatx-6zok5.mongodb.net/countries?retryWrites=true&w=majority".format(pw))
